@@ -1,10 +1,8 @@
-#### R script for the Getting and Cleaning Data Course Project
-
 ## Loading packages
 library(dplyr)
 
 ## Setting the working directory
-setwd("~/Box/data_HD/_MyDocs/NIH-based grants/K99-R00/03_K99 awarded/Course work/01_Coursera/Course1_Data Science Specialization_John Hopkins U/Course3_CleaningGettingData/coursework/CourseProject")
+getwd()
 
 ##### 1. Merging the training and the test sets to create one data set ####
 ## Loading the data sets into data frames
