@@ -1,6 +1,7 @@
 # "Getting and Cleaning Data" Course Project Code book
 >  This code book describes the variables, the data, and transformations/work performed to clean up the raw data
->> Dataset: Human Activity Recognition Using Smartphones Dataset Version 1.0
+
+> Dataset: Human Activity Recognition Using Smartphones Dataset Version 1.0
 #### Description
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -17,18 +18,18 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The set of variables that were estimated from these signals are: 
 >mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+>std(): Standard deviation
+>meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 The complete list of variables of each feature vector is available below (79 variables).
 #### Data transformations
 Features' raw data were imported into R from these files:
-    - 'train/X_train.txt': Training set.
-    - 'train/y_train.txt': Training labels.
-    - 'test/X_test.txt': Test set.
-    - 'test/y_test.txt': Test labels.
-Features original labels: 'features.txt'
-Activity labels (Links the class labels with their activity name): 'activity_labels.txt'
+* 'train/X_train.txt': Training set.
+* 'train/y_train.txt': Training labels.
+* 'test/X_test.txt': Test set.
+* 'test/y_test.txt': Test labels.
+* Features original labels: 'features.txt'
+* Activity labels (Links the class labels with their activity name): 'activity_labels.txt'
 
 run_script.R is a R script that contains the code to perform the following transformations:
 1. Merges the training and the test sets to create one data set.
