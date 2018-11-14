@@ -17,8 +17,8 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 The set of variables that were estimated from these signals are: 
->mean(): Mean value
->std(): Standard deviation
+>mean(): Mean value  
+>std(): Standard deviation   
 >meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 The complete list of variables of each feature vector is available below (79 variables).
